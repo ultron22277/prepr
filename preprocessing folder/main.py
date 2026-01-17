@@ -2,6 +2,7 @@ import numpy as np
 from preprocess.minmaxscaler import min_max
 from preprocess.standardscaler import stdscale
 
+
 def main():
     x = np.array([1, 2, 3, 4, 5])
     z_minmax = min_max(x)
@@ -11,7 +12,8 @@ def main():
     print("Min-max scaled:", z_minmax)
     print("Standard scaled:", z_std)
 
+
 if __name__ == "__main__":
     main()
 
-
+print("hello world")
